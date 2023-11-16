@@ -4,6 +4,8 @@ import streamlit as st
 # Titre de la page
 st.title("Mon premier titre")
 
+st.subheader("Mon premier sous-titre")
+
 # Input de texte
 user_input = st.text_input("Entrez votre texte")
 
