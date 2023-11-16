@@ -1,6 +1,14 @@
 # Import de la bibliothèque streamlit
 import streamlit as st
 
+
+st.set_page_config(
+    page_title="Mon premier streamlit",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
 # Titre de la page
 st.title("Mon premier titre")
 
